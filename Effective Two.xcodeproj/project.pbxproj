@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B768CD421E9E44E400430619 /* MethodSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = B768CD411E9E44E400430619 /* MethodSwizzling.m */; };
 		B79C48961E959E75001C9E4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B79C48951E959E75001C9E4C /* main.m */; };
-		B7BD04091E96C6670067338C /* EOCPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = B7BD04081E96C6670067338C /* EOCPerson.m */; };
-		B7BD040D1E96C7660067338C /* EOCEmployer.m in Sources */ = {isa = PBXBuildFile; fileRef = B7BD040C1E96C7660067338C /* EOCEmployer.m */; };
-		B7BD04111E96DADA0067338C /* Dynamic.m in Sources */ = {isa = PBXBuildFile; fileRef = B7BD04101E96DADA0067338C /* Dynamic.m */; };
-		B7CBFCB81E9CCFC000148774 /* ClassCluster.m in Sources */ = {isa = PBXBuildFile; fileRef = B7CBFCB71E9CCFC000148774 /* ClassCluster.m */; };
+		B7EB19131E9F72BF00C2AA39 /* EOCEmployer.m in Sources */ = {isa = PBXBuildFile; fileRef = B7EB19101E9F72BF00C2AA39 /* EOCEmployer.m */; };
+		B7EB19141E9F72BF00C2AA39 /* EOCPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = B7EB19121E9F72BF00C2AA39 /* EOCPerson.m */; };
+		B7EB19191E9F72D000C2AA39 /* AutoDicitionary.m in Sources */ = {isa = PBXBuildFile; fileRef = B7EB19151E9F72D000C2AA39 /* AutoDicitionary.m */; };
+		B7EB191A1E9F72D000C2AA39 /* ClassCluster.m in Sources */ = {isa = PBXBuildFile; fileRef = B7EB19161E9F72D000C2AA39 /* ClassCluster.m */; };
+		B7EB191B1E9F72D000C2AA39 /* Dynamic.m in Sources */ = {isa = PBXBuildFile; fileRef = B7EB19171E9F72D000C2AA39 /* Dynamic.m */; };
+		B7EB191C1E9F72D000C2AA39 /* MethodSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = B7EB19181E9F72D000C2AA39 /* MethodSwizzling.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -28,15 +29,16 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B768CD411E9E44E400430619 /* MethodSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodSwizzling.m; sourceTree = "<group>"; };
 		B79C48921E959E75001C9E4C /* Effective Two */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Effective Two"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B79C48951E959E75001C9E4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		B7BD04071E96C6670067338C /* EOCPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EOCPerson.h; path = "Chapter One/EOCPerson.h"; sourceTree = "<group>"; };
-		B7BD04081E96C6670067338C /* EOCPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EOCPerson.m; path = "Chapter One/EOCPerson.m"; sourceTree = "<group>"; };
-		B7BD040B1E96C7660067338C /* EOCEmployer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EOCEmployer.h; path = "Chapter One/EOCEmployer.h"; sourceTree = "<group>"; };
-		B7BD040C1E96C7660067338C /* EOCEmployer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EOCEmployer.m; path = "Chapter One/EOCEmployer.m"; sourceTree = "<group>"; };
-		B7BD04101E96DADA0067338C /* Dynamic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Dynamic.m; path = "Chapter Two/Dynamic.m"; sourceTree = "<group>"; };
-		B7CBFCB71E9CCFC000148774 /* ClassCluster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassCluster.m; sourceTree = "<group>"; };
+		B7EB190F1E9F72BF00C2AA39 /* EOCEmployer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCEmployer.h; sourceTree = "<group>"; };
+		B7EB19101E9F72BF00C2AA39 /* EOCEmployer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCEmployer.m; sourceTree = "<group>"; };
+		B7EB19111E9F72BF00C2AA39 /* EOCPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCPerson.h; sourceTree = "<group>"; };
+		B7EB19121E9F72BF00C2AA39 /* EOCPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCPerson.m; sourceTree = "<group>"; };
+		B7EB19151E9F72D000C2AA39 /* AutoDicitionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoDicitionary.m; sourceTree = "<group>"; };
+		B7EB19161E9F72D000C2AA39 /* ClassCluster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassCluster.m; sourceTree = "<group>"; };
+		B7EB19171E9F72D000C2AA39 /* Dynamic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dynamic.m; sourceTree = "<group>"; };
+		B7EB19181E9F72D000C2AA39 /* MethodSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodSwizzling.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,32 +71,33 @@
 		B79C48941E959E75001C9E4C /* Effective Two */ = {
 			isa = PBXGroup;
 			children = (
-				B7BD040E1E96DA160067338C /* Objects */,
-				B7BD04061E96C63D0067338C /* Getting Started */,
+				B7ABEC9A1E9F724200FA07E1 /* Objects */,
+				B7ABEC991E9F723600FA07E1 /* Getting Started */,
 				B79C48951E959E75001C9E4C /* main.m */,
 			);
 			path = "Effective Two";
 			sourceTree = "<group>";
 		};
-		B7BD04061E96C63D0067338C /* Getting Started */ = {
+		B7ABEC991E9F723600FA07E1 /* Getting Started */ = {
 			isa = PBXGroup;
 			children = (
-				B7BD04071E96C6670067338C /* EOCPerson.h */,
-				B7BD04081E96C6670067338C /* EOCPerson.m */,
-				B7BD040B1E96C7660067338C /* EOCEmployer.h */,
-				B7BD040C1E96C7660067338C /* EOCEmployer.m */,
+				B7EB190F1E9F72BF00C2AA39 /* EOCEmployer.h */,
+				B7EB19101E9F72BF00C2AA39 /* EOCEmployer.m */,
+				B7EB19111E9F72BF00C2AA39 /* EOCPerson.h */,
+				B7EB19121E9F72BF00C2AA39 /* EOCPerson.m */,
 			);
-			name = "Getting Started";
+			path = "Getting Started";
 			sourceTree = "<group>";
 		};
-		B7BD040E1E96DA160067338C /* Objects */ = {
+		B7ABEC9A1E9F724200FA07E1 /* Objects */ = {
 			isa = PBXGroup;
 			children = (
-				B7BD04101E96DADA0067338C /* Dynamic.m */,
-				B7CBFCB71E9CCFC000148774 /* ClassCluster.m */,
-				B768CD411E9E44E400430619 /* MethodSwizzling.m */,
+				B7EB19151E9F72D000C2AA39 /* AutoDicitionary.m */,
+				B7EB19161E9F72D000C2AA39 /* ClassCluster.m */,
+				B7EB19171E9F72D000C2AA39 /* Dynamic.m */,
+				B7EB19181E9F72D000C2AA39 /* MethodSwizzling.m */,
 			);
-			name = Objects;
+			path = Objects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -154,12 +157,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B7BD040D1E96C7660067338C /* EOCEmployer.m in Sources */,
-				B768CD421E9E44E400430619 /* MethodSwizzling.m in Sources */,
-				B7BD04091E96C6670067338C /* EOCPerson.m in Sources */,
-				B7CBFCB81E9CCFC000148774 /* ClassCluster.m in Sources */,
-				B7BD04111E96DADA0067338C /* Dynamic.m in Sources */,
+				B7EB19191E9F72D000C2AA39 /* AutoDicitionary.m in Sources */,
+				B7EB19131E9F72BF00C2AA39 /* EOCEmployer.m in Sources */,
+				B7EB19141E9F72BF00C2AA39 /* EOCPerson.m in Sources */,
 				B79C48961E959E75001C9E4C /* main.m in Sources */,
+				B7EB191A1E9F72D000C2AA39 /* ClassCluster.m in Sources */,
+				B7EB191B1E9F72D000C2AA39 /* Dynamic.m in Sources */,
+				B7EB191C1E9F72D000C2AA39 /* MethodSwizzling.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
