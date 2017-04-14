@@ -14,6 +14,7 @@
 		B7EB191A1E9F72D000C2AA39 /* ClassCluster.m in Sources */ = {isa = PBXBuildFile; fileRef = B7EB19161E9F72D000C2AA39 /* ClassCluster.m */; };
 		B7EB191B1E9F72D000C2AA39 /* Dynamic.m in Sources */ = {isa = PBXBuildFile; fileRef = B7EB19171E9F72D000C2AA39 /* Dynamic.m */; };
 		B7EB191C1E9F72D000C2AA39 /* MethodSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = B7EB19181E9F72D000C2AA39 /* MethodSwizzling.m */; };
+		B7EB191E1E9F77C600C2AA39 /* Introspection.m in Sources */ = {isa = PBXBuildFile; fileRef = B7EB191D1E9F77C600C2AA39 /* Introspection.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -39,6 +40,7 @@
 		B7EB19161E9F72D000C2AA39 /* ClassCluster.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassCluster.m; sourceTree = "<group>"; };
 		B7EB19171E9F72D000C2AA39 /* Dynamic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dynamic.m; sourceTree = "<group>"; };
 		B7EB19181E9F72D000C2AA39 /* MethodSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodSwizzling.m; sourceTree = "<group>"; };
+		B7EB191D1E9F77C600C2AA39 /* Introspection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Introspection.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 				B7EB19161E9F72D000C2AA39 /* ClassCluster.m */,
 				B7EB19171E9F72D000C2AA39 /* Dynamic.m */,
 				B7EB19181E9F72D000C2AA39 /* MethodSwizzling.m */,
+				B7EB191D1E9F77C600C2AA39 /* Introspection.m */,
 			);
 			path = Objects;
 			sourceTree = "<group>";
@@ -160,6 +163,7 @@
 				B7EB19191E9F72D000C2AA39 /* AutoDicitionary.m in Sources */,
 				B7EB19131E9F72BF00C2AA39 /* EOCEmployer.m in Sources */,
 				B7EB19141E9F72BF00C2AA39 /* EOCPerson.m in Sources */,
+				B7EB191E1E9F77C600C2AA39 /* Introspection.m in Sources */,
 				B79C48961E959E75001C9E4C /* main.m in Sources */,
 				B7EB191A1E9F72D000C2AA39 /* ClassCluster.m in Sources */,
 				B7EB191B1E9F72D000C2AA39 /* Dynamic.m in Sources */,

@@ -51,4 +51,13 @@ void autoDictionarySetter(id self, SEL _cmd, id value);
     return YES;
 }
 
+id autoDictionaryGetter(id self, SEL _cmd) {
+    AutoDictionary *typeSelf = (AutoDictionary*)self;
+    NSMutableDictionary *backingStore = typeSelf.backingStore;
+    
+    NSString *key = NSStringFromSelector(_cmd);
+    
+    return [backingStore objectForKey:key];
+}
+
 @end
