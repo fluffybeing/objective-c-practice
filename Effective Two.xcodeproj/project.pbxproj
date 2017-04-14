@@ -15,6 +15,7 @@
 		B7EB191B1E9F72D000C2AA39 /* Dynamic.m in Sources */ = {isa = PBXBuildFile; fileRef = B7EB19171E9F72D000C2AA39 /* Dynamic.m */; };
 		B7EB191C1E9F72D000C2AA39 /* MethodSwizzling.m in Sources */ = {isa = PBXBuildFile; fileRef = B7EB19181E9F72D000C2AA39 /* MethodSwizzling.m */; };
 		B7EB191E1E9F77C600C2AA39 /* Introspection.m in Sources */ = {isa = PBXBuildFile; fileRef = B7EB191D1E9F77C600C2AA39 /* Introspection.m */; };
+		B7EB19211EA0F8F300C2AA39 /* Basic.m in Sources */ = {isa = PBXBuildFile; fileRef = B7EB19201EA0F8F300C2AA39 /* Basic.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -41,6 +42,7 @@
 		B7EB19171E9F72D000C2AA39 /* Dynamic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dynamic.m; sourceTree = "<group>"; };
 		B7EB19181E9F72D000C2AA39 /* MethodSwizzling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MethodSwizzling.m; sourceTree = "<group>"; };
 		B7EB191D1E9F77C600C2AA39 /* Introspection.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Introspection.m; sourceTree = "<group>"; };
+		B7EB19201EA0F8F300C2AA39 /* Basic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Basic.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 		B79C48941E959E75001C9E4C /* Effective Two */ = {
 			isa = PBXGroup;
 			children = (
+				B7EB191F1EA0F5C000C2AA39 /* Blocks */,
 				B7ABEC9A1E9F724200FA07E1 /* Objects */,
 				B7ABEC991E9F723600FA07E1 /* Getting Started */,
 				B79C48951E959E75001C9E4C /* main.m */,
@@ -101,6 +104,14 @@
 				B7EB191D1E9F77C600C2AA39 /* Introspection.m */,
 			);
 			path = Objects;
+			sourceTree = "<group>";
+		};
+		B7EB191F1EA0F5C000C2AA39 /* Blocks */ = {
+			isa = PBXGroup;
+			children = (
+				B7EB19201EA0F8F300C2AA39 /* Basic.m */,
+			);
+			path = Blocks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,6 +171,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7EB19211EA0F8F300C2AA39 /* Basic.m in Sources */,
 				B7EB19191E9F72D000C2AA39 /* AutoDicitionary.m in Sources */,
 				B7EB19131E9F72BF00C2AA39 /* EOCEmployer.m in Sources */,
 				B7EB19141E9F72BF00C2AA39 /* EOCPerson.m in Sources */,
