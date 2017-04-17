@@ -16,6 +16,9 @@
 
 @implementation MessageSend
 
+
+// For this to work
+// set ENABLE_STRICT_OBJC_MSGSEND flag in Build Setting to NO
 -(void)messageSend {
     NSString *query = @"Effective Objective-C";
     
