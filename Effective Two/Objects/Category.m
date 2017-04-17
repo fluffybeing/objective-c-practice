@@ -10,15 +10,15 @@
 #import <objc/runtime.h>
 
 
-@interface NSURL (URLWithStringFormat)
+@interface NSURL (EFTURLWithStringFormat)
 
-+(id)URLWithStringFormat:(NSString *)format, ...;
++(id)EFTURLWithStringFormat:(NSString *)format, ...;
 
 @end
 
-@implementation NSURL (URLWithStringFormat)
+@implementation NSURL (EFTURLWithStringFormat)
 
-+(id)URLWithStringFormat:(NSString *)format, ... {
++(id)EFTURLWithStringFormat:(NSString *)format, ... {
     va_list(args);
     va_start(args, format);
     
