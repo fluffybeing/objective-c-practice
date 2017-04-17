@@ -19,7 +19,7 @@
 @implementation NSURL (EFTURLWithStringFormat)
 
 +(id)EFTURLWithStringFormat:(NSString *)format, ... {
-    va_list(args);
+    va_list args;
     va_start(args, format);
     
     NSString *urlString = [[NSString alloc] initWithFormat:format
