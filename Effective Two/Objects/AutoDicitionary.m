@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import <objc/runtime.h>
+#import <CoreFoundation/CoreFoundation.h>
 
 @interface AutoDictionary : NSObject
 @property (nonatomic, strong) NSString *string;
@@ -37,10 +38,10 @@ void autoDictionarySetter(id self, SEL _cmd, id value);
     NSString *selectorString = NSStringFromSelector(selector);
     
     if ([selectorString hasPrefix:@"set"]) {
-        class_addMethod(self,
-                        selector,
-                        (IMP)autoDictionarySetter,
-                        "v@:@");
+//        class_addMethod(self,
+//                        selector,
+//                        (IMP)autoDictionarySetter,
+//                        "v@:@");
     } else {
         class_addMethod(self,
                         selector,

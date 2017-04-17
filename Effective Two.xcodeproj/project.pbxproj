@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		B79C48961E959E75001C9E4C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B79C48951E959E75001C9E4C /* main.m */; };
+		B7A254031EA52A6400430AA9 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7A254021EA52A6400430AA9 /* CoreFoundation.framework */; };
+		B7A254051EA52B3900430AA9 /* Category.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A254041EA52B3900430AA9 /* Category.m */; };
 		B7EB19131E9F72BF00C2AA39 /* EOCEmployer.m in Sources */ = {isa = PBXBuildFile; fileRef = B7EB19101E9F72BF00C2AA39 /* EOCEmployer.m */; };
 		B7EB19141E9F72BF00C2AA39 /* EOCPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = B7EB19121E9F72BF00C2AA39 /* EOCPerson.m */; };
 		B7EB19191E9F72D000C2AA39 /* AutoDicitionary.m in Sources */ = {isa = PBXBuildFile; fileRef = B7EB19151E9F72D000C2AA39 /* AutoDicitionary.m */; };
@@ -33,6 +35,8 @@
 /* Begin PBXFileReference section */
 		B79C48921E959E75001C9E4C /* Effective Two */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Effective Two"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B79C48951E959E75001C9E4C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B7A254021EA52A6400430AA9 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		B7A254041EA52B3900430AA9 /* Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Category.m; sourceTree = "<group>"; };
 		B7EB190F1E9F72BF00C2AA39 /* EOCEmployer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCEmployer.h; sourceTree = "<group>"; };
 		B7EB19101E9F72BF00C2AA39 /* EOCEmployer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EOCEmployer.m; sourceTree = "<group>"; };
 		B7EB19111E9F72BF00C2AA39 /* EOCPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EOCPerson.h; sourceTree = "<group>"; };
@@ -50,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B7A254031EA52A6400430AA9 /* CoreFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +66,7 @@
 			children = (
 				B79C48941E959E75001C9E4C /* Effective Two */,
 				B79C48931E959E75001C9E4C /* Products */,
+				B7A254011EA52A6400430AA9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +89,14 @@
 			path = "Effective Two";
 			sourceTree = "<group>";
 		};
+		B7A254011EA52A6400430AA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B7A254021EA52A6400430AA9 /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B7ABEC991E9F723600FA07E1 /* Getting Started */ = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +116,7 @@
 				B7EB19171E9F72D000C2AA39 /* Dynamic.m */,
 				B7EB19181E9F72D000C2AA39 /* MethodSwizzling.m */,
 				B7EB191D1E9F77C600C2AA39 /* Introspection.m */,
+				B7A254041EA52B3900430AA9 /* Category.m */,
 			);
 			path = Objects;
 			sourceTree = "<group>";
@@ -178,6 +193,7 @@
 				B7EB191E1E9F77C600C2AA39 /* Introspection.m in Sources */,
 				B79C48961E959E75001C9E4C /* main.m in Sources */,
 				B7EB191A1E9F72D000C2AA39 /* ClassCluster.m in Sources */,
+				B7A254051EA52B3900430AA9 /* Category.m in Sources */,
 				B7EB191B1E9F72D000C2AA39 /* Dynamic.m in Sources */,
 				B7EB191C1E9F72D000C2AA39 /* MethodSwizzling.m in Sources */,
 			);
