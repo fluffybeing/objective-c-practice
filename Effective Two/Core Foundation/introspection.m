@@ -14,6 +14,9 @@ int main(int argc, char *argv[]) {
 		
 		CFArrayRef array = CFArrayCreate(NULL, (const void**)&string, 1, &kCFTypeArrayCallBacks);
 		CFShow(array);
+		
+		// Create and Copy causes retain by caller
+		CFRelease(array);
 				
 	}
 }
